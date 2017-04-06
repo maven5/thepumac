@@ -1,0 +1,17 @@
+/*
+** 공통 CSS
+**
+*/
+
+/* 나눔고딕 */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.align_center{
+	text-align: center;
+	margin:0;
+}
+
+
+body {
+    font-family: "Nanum Gothic", sans-serif;
+}

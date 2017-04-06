@@ -1,0 +1,107 @@
+/*
+** 투표시스템
+**
+*/
+
+.bVote_wrap{ /* 전체 wrap */
+	width:100%;
+	height:100%;
+}
+
+.bVote_title{ /* 투표시스템 타이틀명  */
+font-weight: normal;
+	position: relative;
+	text-shadow: 0 -1px rgba(0,0,0,0.6);
+	font-size: 16px;
+	line-height: 30px;
+	background: #355681;
+	background: rgba(53,86,129, 0.8);
+	border: 1px solid #fff;
+	padding: 5px 30px;
+	color: white;
+	/* border-radius: 10px 10px 0 0px; */
+}
+
+.bVote_list{
+	width:100%;
+	overflow: hidden;
+  	height: auto;
+	border:1px solid #ddd;
+}
+
+.bVote_cols{ /* 투표 1건에 대한 wrap  */
+	width:250px;
+	height:75px;
+	border:1px solid #bdbdbd;
+	border-radius: 0 10px 0 10px;
+	font-size: 14px;
+	text-align: center;
+	float:left;
+	margin-left:22px;
+	margin-right:22px;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+.bVote_col1{ /* 투표하기 LEFT  */
+	float:left;
+	width:200px;
+	height:68px;
+}
+
+.bVote_col2{ /* 투표하기 RIGHT */
+	float:left;
+	width:50px;
+	height:68px;
+	border-radius: 0 10px 0 0px;
+	color:white;
+	background: #4374D9;
+	font-size: 14px;
+	line-height: 20px;
+	padding-top:8px;
+}
+
+.bVote_col2:hover{ /* 투표하기 버튼화 */
+	cursor: pointer;
+}
+
+.bVote_subject{ /* 투표 제목  */
+	width:100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	margin-top:15px;
+}
+
+.bVote_date{ /* 투표날짜  */
+	width:100%;
+	font-size:12px;
+	margin-top:10px;
+}
+
+.bVote_button{
+	width:100%;
+	text-align: right;
+	margin-bottom:20px;
+	display:block;
+}
+
+.bVote_button input{
+	background: #0b73b4;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border: 1px solid #0B73C8;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-left: auto;
+    cursor: pointer;
+    margin-top:30px;
+    margin-right:40px;
+}
+
+
+@media{
+	
+}
+

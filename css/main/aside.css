@@ -1,0 +1,162 @@
+.aside {
+  min-width: 360px;
+  width: 15%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #fafafa;
+  border-right: 1px solid #333;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  z-index: 2000;
+  width: 0px;
+  min-width: 0px;
+  overflow-y: scroll;
+  
+  transition: 0.35s width ease, 0.35s min-width ease;
+}
+
+.aside .aside-header {
+  background: #0b7eb4;
+  overflow: hidden;
+}
+
+.aside .aside-header .close {
+  float: right;
+  cursor: pointer;
+}
+
+.aside .aside-contents {
+  padding: 0.5em;
+  padding-bottom: 1em;
+}
+
+.aside.in {
+  width: 15%;
+  min-width: 360px;
+}
+
+.aside-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000;
+  transition: 0.2s opacity ease;
+  opacity: 0;
+  display: none;
+}
+
+.aside-backdrop.in {
+  display: block;
+  opacity: 0.5;
+}
+
+.aside_top{
+	height:50px;
+	line-height: 50px;
+	font-weight: bold;
+	text-align: center;
+	font-size:13px;
+}
+
+.aside_close{
+	height:25px;
+	text-align: right;
+	color:#0b7eb4;
+	
+}
+
+.aside_close > .close{
+  margin-right:10px;
+  font-size:29px;
+  cursor:pointer;
+}
+
+.aside-header_left{
+	color:white;
+	width:200px;
+	text-align:center;
+	margin-top:8px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.aside-header_right{
+	color:white;
+	width:187px;
+	font-size:11px;
+	margin-top:15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.aside-header_right a{
+	color:white;
+	text-decoration: none;
+}
+
+.aside-header{
+	height:65px;
+}
+
+.aside_loginForm{
+	margin-bottom: 25px;	
+}
+
+.aside_loginForm_row1{
+	height:40px;
+	margin:0 auto;
+	width:200px;
+	margin-top:10px;
+}
+
+.aside_loginForm_row1 > input{
+	height: auto;  /* 높이 초기화 */
+	line-height: normal;  /* line-height 초기화 */
+	padding: .8em .5em;  /* 여백 설정 */
+}
+
+.aside_loginB{
+	width:90px;
+	text-align:center;
+	height:30px;
+	line-height:30px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	color:white;
+	background: #0b7eb4;
+	cursor: pointer;
+}
+
+.aside_category_title{
+	background: #ecebeb;
+	height:40px;
+	line-height:40px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	border-top:1px solid #adadad;
+	padding-left:25px;
+}
+
+.aside_category_sub_rows{
+	height:30px;
+	line-height:30px;
+	border-top:1px solid #dfdfdf;
+	font-size:14px;
+	padding-left:25px;
+	cursor: pointer;
+	color:#b1b1b1;
+}
+
+.aside_category_sub{
+	display:none;
+}
+
+
+
+

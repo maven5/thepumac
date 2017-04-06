@@ -1,0 +1,110 @@
+body{
+   margin:0px auto;
+   width:100%;
+}
+
+.row1{
+   width:320px;
+   height: 30px;
+   border:1px solid;
+   text-align:center;
+   font-size:12px;
+   line-height:30px;
+}
+
+.join1{
+   width: 106px;
+   float: left;
+   border-right:1px solid #919191;
+   background-color:#efefef;
+}
+
+.join2{
+   width: 106px;
+   float: left;
+   background-color:#0b7eb4;
+   color:#fff;
+   font-weight:bold;
+}
+
+.join3{
+   width: 107px;
+   float: left;
+   background-color:#efefef;
+}
+
+
+.row2{
+   width:320px;
+   height: 690px;
+   font-size:15px;
+   font-weight:bold;
+   line-height:30px;
+}
+
+.name1{
+   width: 320px;
+   height: 78px;
+   margin:7px;
+}
+
+.name2{
+   width:300px;
+   height: 30px;
+}
+
+.dong1{
+   width:300px;
+   height: 30px;
+   margin-right: 10px;
+}
+
+
+.row3{
+   width:320px;
+   height: 50px;
+   font-size:15px;
+   font-weight:bold;
+   text-align:center;
+   line-
+}
+
+.box1{
+   text-align:center;
+   width: 100px;
+   height: 40px;
+   background-color:#0b7eb4;
+   color:#fff;
+   font-weight:bold;
+   float:left;
+   margin-top:8px;
+   margin-left:40px;
+   line-height:40px;
+   }
+
+.box2{
+   text-align:center;
+   width: 100px;
+   height: 40px;
+   background-color:#b3b3b3;
+   color:#fff;
+   font-weight:bold;
+   float:left;
+   margin-top:8px;
+   margin-left:35px;
+   line-height:40px;
+}
+
+.joinform_wrap{
+	display: none;
+}
+
+@media (max-width:500px){
+	.webjoinform{
+	    display: none;
+	}
+	
+	.joinform_wrap{
+	    display: block;
+    }
+}

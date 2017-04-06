@@ -1,0 +1,316 @@
+/*
+** 투표보기
+  */
+
+.bVote_wrap{
+	width:100%;
+	height:100%;
+	border:1px solid #ddd;
+}
+
+.bVote_title{ /* 투표시스템 타이틀명  */
+	font-weight: normal;
+	position: relative;
+	text-shadow: 0 -1px rgba(0,0,0,0.6);
+	font-size: 16px;
+	line-height: 30px;
+	background: #355681;
+	background: rgba(53,86,129, 0.8);
+	border: 1px solid #fff;
+	padding: 5px 30px;
+	color: white;
+	clear:right;
+	/* border-radius: 10px 10px 0 0px; */
+}
+
+.bVote_statsBoxs{ /* 통계박스 */
+	width:100%;
+	height:100%;
+	float:left;
+}
+
+.bVote_statsBox{
+	width:260px;
+	height:120px;
+	float:left;
+	margin-top:15px;
+	background: #617C8F;
+	margin-left:50px;
+}
+
+.ttt{
+	margin-left:10px;
+}
+
+.bVote_statsBox_1{
+	width:100%;
+	margin-top:10px;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+	color:white;
+	
+}
+
+.bVote_statsBox_2{
+	width:100%;
+	margin-top:5px;
+	font-size: 35px;
+	text-align: center;
+	color:white;
+}
+
+.bVote_list_title{ /* 세부항목 타이틀 */
+	/* border-bottom: 2px solid #355681;
+	border-top: 2px solid #355681; */
+	margin-top:20px;
+	height:30px;
+	line-height: 30px;
+	width:110px;
+	color:white;
+	text-shadow: 0 -1px rgba(0,0,0,0.7);
+	font-size: 16px;
+	line-height: 30px;
+	background: #355681;
+	background: rgba(53,86,129, 0.7);
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+}
+
+.bVote_list_row{ /* 항목 Item */
+	border:1px solid #ddd;	
+	width:820px;
+	height:30px;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size: 15px;
+}
+
+.bVote_list_col1{
+	padding-left:20px;
+	line-height: 30px;
+	height:30px;
+	float:left;
+	width:60px;
+}
+
+.bVote_list_col2{
+	padding-left:20px;
+	line-height: 30px;
+	height:30px;
+	float:left;
+	width:653px;
+}
+
+.bVote_list_col3{ /* 투표하기 버튼 */
+	background-color: #2457BD;
+	opacity:0.7;
+    width: 65px;
+    height: 31px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 33px;
+    margin-left: 1px;
+	float:left;
+	cursor: pointer;
+}
+
+.bVote_list_col4{
+	padding-left:20px;
+	line-height: 30px;
+	height:30px;
+	float:left;
+	width:623px;
+}
+
+.bVote_list_col5{
+	float:left;
+	width:95px;
+	line-height: 30px;
+	height:30px;
+}
+
+.bVote_content{ /* 설문 내용 */
+	border:1px solid #ddd;
+	width:800px;
+	padding-left:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 10px;
+}
+
+.bVote_result{ /* 결과보기*/
+	background-color: #FF6C6C;
+    width: 65px;
+    height: 31px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 33px;
+	cursor:pointer;
+	clear:left;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom:10px;
+	display:block;
+}
+
+.bVote_result2{ /* 결과닫기*/
+	background-color: #FF6C6C;
+    width: 65px;
+    height: 31px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 33px;
+	cursor:pointer;
+	clear:left;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom:10px;
+	display:block;
+}
+
+.progress {
+  	border:1px solid #ddd;	
+	width:820px;
+	height:30px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size: 15px;
+	margin-bottom:10px;
+}
+
+.progress-wrap {
+  background: #f80;
+  overflow: hidden;
+  position: relative;
+}
+.progress-wrap .progress-bar {
+  background: #ddd;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+
+.bVote_after{ /* 결과HIDE */
+	 display:none; 
+}
+
+@media(max-width:500px){
+	.bVote_statsBox{
+	width:260px;
+	height:120px;
+	background: #617C8F;
+	margin:0 auto;
+	float:none;
+ }
+ 	.bVote_statsBox_1{
+ 		padding:7px;
+ }
+
+.bVote_content{ /* 설문 내용 */
+	border:1px solid #ddd;
+	width:299px;
+	padding-left:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 10px;
+}
+
+.bVote_list_row{ /* 항목 Item */
+	border:1px solid #ddd;	
+	width:320px;
+	height:30px;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size: 15px;
+	clear: left;
+}
+
+.bVote_list_col1{
+	padding-left:20px;
+	line-height: 30px;
+	height:30px;
+	float:left;
+	width:50px;
+	clear: left;
+}
+
+.bVote_list_col2{
+	padding-left:20px;
+	line-height: 30px;
+	height:30px;
+	float:left;
+	width:163px;
+}
+
+.bVote_list_col3{ /* 투표하기 버튼 */
+	background-color: #2457BD;
+	opacity:0.7;
+    width: 65px;
+    height: 31px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 31px;
+	float:left;
+	cursor: pointer;
+}
+
+.bVote_list_col4{
+	padding-left:20px;
+	line-height: 30px;
+	height:30px;
+	float:left;
+	width:163px;
+}
+
+.bVote_list_col5{
+	float:left;
+	width:95px;
+	line-height: 30px;
+	height:30px;
+	margin-left:-28px;
+}
+
+.progress {
+  	border:1px solid #ddd;	
+	width:320px;
+	height:30px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size: 15px;
+	margin-bottom:10px;
+}
+
+.progress-wrap {
+  background: #f80;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-wrap .progress-bar {
+  background: #ddd;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+}

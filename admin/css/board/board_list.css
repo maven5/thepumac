@@ -1,0 +1,157 @@
+.ml_wrap{
+	float:left;
+	width:870px;
+	border:1px solid #bdbdbd;
+	margin-left:10px;
+}
+
+.ml_title{
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	margin-top:10px;
+	margin-bottom: 40px;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.ml_search{
+	width:400px;
+	height:30px;
+	margin-left:auto;
+	margin-right:auto;
+	line-height: 30px;
+	margin-top:10px;
+}
+
+.bl_category{
+	width:400px;
+	height:30px;
+	margin-left:auto;
+	margin-right:auto;
+	line-height: 30px;
+}
+
+.search_key{
+	height:26px;
+}
+
+.search_value{
+	height:18px;
+	padding-left:5px;
+}
+
+.bl_category select{
+	width:100px;
+	padding-left:5px;
+	height:30px;
+	text-align: left;
+}
+
+.ml_search input[type=text]{
+	width:240px;
+}
+
+.ml_count{
+	width:100%;
+	text-align: right;
+	font-size: 13px;
+	
+}
+
+.ml_list{
+	width:870px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	overflow: hidden;
+}
+
+.ml_list_header{
+	border-top:1px solid;
+	border-bottom: 1px solid;
+	height:30px;
+	font-size: 14px;
+}
+
+.ml_list_col1{
+	float:left;
+	width:40px;
+	height:30px;
+	line-height:30px;
+	text-align: center;
+	border-right:1px solid #bdbdbd;
+	clear:left;
+}
+
+.ml_list_col2{
+	text-overflow:ellipsis;overflow: hidden;
+	float:left;
+	width:70px;
+	height:30px;
+	line-height:30px;
+	text-align: center;
+	border-right:1px solid #bdbdbd;
+	
+}
+
+.ml_list_col3{
+	float:left;
+	width:330px;
+	height:30px;
+	line-height:30px;
+	text-align: center;
+	border-right:1px solid #bdbdbd;
+}
+
+.ml_list_col4{
+	float:left;
+	width:100px;
+	height:30px;
+	line-height:30px;
+	text-align: center;
+	border-right:1px solid #bdbdbd;
+}
+
+.ml_list_col5{
+	float:left;
+	width:50px;
+	height:30px;
+	line-height:30px;
+	text-align: center;
+	border-right:1px solid #bdbdbd;
+}
+
+.ml_list_col6{
+	float:left;
+	width:120px;
+	height:30px;
+	line-height:30px;
+	text-align: center;
+	border-right:1px solid #bdbdbd;
+}
+
+
+.ml_list_col7{
+	float:left;
+	width:150px;
+	height:30px;
+	line-height:30px;
+	text-align: center;
+}
+
+.vote_view{
+	cursor:pointer;
+}
+.vote_view:hover{
+	    color: #fe9601;
+}
+
+.vote_modify{
+	cursor:pointer;
+}
+
+.vote_modify:hover{
+	    color: #fe9601;
+}

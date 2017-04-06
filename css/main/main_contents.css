@@ -1,0 +1,296 @@
+.top_wrap{
+	width:1500px;
+	height: 350px;
+}
+
+/* 이미지 슬라이드 */
+.mc_slider{
+	width:780px;
+	height:340px;
+	float:left;
+	margin-left:0px;
+	cursor:pointer;
+}
+
+.mc_slider li{
+    width:780px;
+	height:340px;
+	float:left;
+}
+
+/* 마이페이지  */
+.mc_mypage{
+	width:286px;
+	height:339px;
+	border-left:1px solid #bdbdbd;
+	border-bottom:1px solid #bdbdbd;
+	border-right:1px solid #bdbdbd;
+	float:left;
+	margin:0px;
+}
+
+.mc_mypage_title{
+	width:270px;
+	height:45px;
+	background: #0b7eb4;
+	line-height: 45px;
+	color:white;
+	padding-left: 17px;
+	
+}
+
+.mc_mypage_contents{
+	/* margin-top:80px; */
+	margin-top:20px; 
+	margin-left:auto;
+	margin-right:auto;
+	width:250px;
+	height:130px;
+}
+
+.mc_mypage_login{
+	width:180px;
+	height:40px;
+	line-height:40px;
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+	background:#0b7eb4;
+	color:white;
+	text-align: center;
+	cursor:pointer;
+}
+
+.mc_mypage_sub{
+	width:180px;
+	height:40px;
+	line-height:40px;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size: 10px;
+	color:#bdbdbd;
+}
+
+.mc_mypage_sub a{
+	text-decoration:none;
+	color:#bdbdbd;
+}
+
+
+/* 카테고리 */
+.mc_category{
+	width:1064px;
+	height:98px;
+	/* border:1px solid #bdbdbd; */
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.mc_category_cols{
+	width:88px;
+	height:50px;
+	float:left;
+	font-size:11px;
+	margin-left:15px;
+	margin-top:15px;
+	cursor:pointer;
+}
+.mc_mypage_msg{
+	width:70%;
+	color:#0b7eb4;
+	font-size:13px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+/* 팝업 */
+.popup1{
+	width:221px; height:261px;  color:black; 
+  position:absolute; top:300px; right:40px; text-align:center; 
+  
+}
+
+.popup1_img{
+	width:221px; height:251px; 
+	background:url('/pumac2/image/main_contents/popup1.png');
+}
+
+.popup1_close{
+	width:100%;
+	height:30px;
+	text-align: right;
+}
+
+.popup1_close span{
+	cursor: pointer;
+	font-size: 13px;
+}
+
+.popup2{
+	width:223px; height:261px;  color:black; 
+  position:absolute; top:600px; right:40px; text-align:center; 
+  
+}
+
+.popup2_img{
+	width:223px; height:253px; 
+	background:url('/pumac2/image/main_contents/popup2.jpg');
+}
+
+.mc_category2{
+	width:320px;
+	height:200px;
+	border:1px solid #bdbdbd;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	display:none;
+}
+
+.mc_category2_row{
+	width:100%;
+}
+
+/*  미디어 쿼리 ( 반응형) */
+
+@media (max-width:500px){
+	.top_wrap{
+	width:330px;
+	height: 350px;
+    }
+	
+	
+	.mc_mypage{
+		display:none;
+	}
+	
+	.mc_slider{
+		width:320px;
+		margin:0 auto;
+	}
+	
+	.popup1{
+		display:none;
+	}
+	
+	.popup2{
+		display:none;
+	}
+	
+	.mc_img{
+		width:30px;
+	}
+	
+	.mc_category_cols{
+	width:65px;
+	height:45px;
+	font-size:5px;
+	margin-left:10px;
+	margin-top:15px;
+	cursor:pointer;
+   }
+   
+   .mc_category{
+   display:none;
+   }
+   
+   .mc_category2{
+   display:block;
+   }
+   
+   .bx-wrapper{
+   margin-left:0px !important;
+   width:322px !important;
+   }
+
+}
+
+
+/* 마이페이지 로그인시 */
+
+
+.rv_row1{
+	margin-top: 0px;
+}
+
+.rv_row1_col1{
+	width:280px;
+	float:left;
+	height: 20px;
+    color: #222;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+ 	
+}
+.rv_row1_col2{
+	width:280px;
+	float:left;
+	height: 20px;
+    color: #222;
+    font-size: 14px;
+    margin-bottom: 20px;
+ 	
+}
+
+.rv_row2{
+	width:280px;
+	text-align: left;
+
+}
+
+.rv_row2_row1{
+	float:left;
+	width:280px;
+	height:20px;
+	line-height: 20px;
+}
+
+.rv_row2_row1_col1{
+	float:left;
+	width:60px;
+	height:20px;
+	color: #6e6e6e;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #fcfcfc;
+    margin-right: 5px;
+}
+
+.rv_row2_row1_col2{
+	float:left;
+	width:60px;
+	height:20px;
+	color: #222;
+    font-size: 12px;
+    text-align: left;
+    border:0px;
+    margin-right: 10px;
+}
+
+.rv_row2_row1_col3{
+	float:left;
+	width:60px;
+	height:20px;
+	color: #6e6e6e;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #fcfcfc;
+    margin-right: 5px;
+}
+
+.rv_row2_row1_col4{
+	float:left;
+	width:60px;
+	height:20px;
+	color: #222;
+    font-size: 12px;
+    text-align: left;
+     border:0px;
+}
+

@@ -1,0 +1,124 @@
+.bVote_title{ /* 글쓰기 헤더 */
+	font-weight: normal;
+	position: relative;
+	text-shadow: 0 -1px rgba(0,0,0,0.6);
+	font-size: 16px;
+	line-height: 30px;
+	background: #355681;
+	background: rgba(53,86,129, 0.8);
+	border: 1px solid #fff;
+	padding: 5px 30px;
+	color: white;
+	/* border-radius: 10px 10px 0 0px; */
+	width:710px;
+}
+
+.boardWF_wrap{
+	border:1px solid #ddd;
+	width:770px;
+}
+
+.boardWF_row1{
+	padding-left:30px;
+	padding-top:15px;
+	width:740px;
+	height:35px;
+	border-bottom: 1px solid #ddd;
+	line-height: 35px;
+	color:#3c3c3c;
+}
+
+.boardWF_row1 select{
+	height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.boardWF_row1 input[type=text]{
+	width:610px;
+	height: 23px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.boardWF_col1{
+	width:80px;
+	float:left;
+	font-size:13px;
+	color:#3c3c3c;
+}
+
+.boardWF_col2{
+	float:left;
+}
+
+.boardWF_row2{
+	width:820px;
+	padding-left: 20px;
+	margin-top:30px;	
+	margin-bottom:30px;
+}
+
+.boardWF_page1_cols2{
+	float:left;
+	width:163px;
+	border-right:1px solid #bdbdbd;
+	height:980px;
+}
+
+.boardWF_page2_cols2{
+	padding-top:30px;
+	padding-left:0px;
+	float:left;
+	width:902px;
+	height:980px;
+}
+
+.boardWF_page{
+	clear:left;
+	width:100%;
+	height:980px;
+	border-left:1px solid #bdbdbd;
+	border-right:1px solid #bdbdbd;
+	border-bottom:1px solid #bdbdbd;
+}
+
+.boardWF_writeB{
+    border: 1px solid #6e6e6e;
+    background-color: #6e6e6e;
+    color: #fff;
+    height: 35px;
+    width:70px;
+    line-height: 35px;
+    padding: 10 30px;
+    cursor: pointer;
+}
+
+.boardWF_cancleB{
+    border: 1px solid #F15F5F;
+    background-color: #F15F5F;
+    color: #fff;
+    height: 35px;
+    width:70px;
+    line-height: 35px;
+    padding: 10 30px;
+    cursor: pointer;
+    margin-left:15px;
+}
+
