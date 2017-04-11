@@ -117,7 +117,7 @@
 
 .popup1_img{
 	width:221px; height:251px; 
-	background:url('/pumac2/image/main_contents/popup1.png');
+	background:url('/image/main_contents/popup1.png');
 	cursor:pointer;
 }
 
@@ -140,7 +140,7 @@
 
 .popup2_img{
 	width:223px; height:253px; 
-	background:url('/pumac2/image/main_contents/popup2.jpg');
+	background:url('/image/main_contents/popup2.jpg');
 	cursor:pointer;
 }
 
