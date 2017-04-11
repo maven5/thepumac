@@ -118,6 +118,7 @@
 .popup1_img{
 	width:221px; height:251px; 
 	background:url('/pumac2/image/main_contents/popup1.png');
+	cursor:pointer;
 }
 
 .popup1_close{
@@ -134,12 +135,13 @@
 .popup2{
 	width:223px; height:261px;  color:black; 
   position:absolute; top:600px; right:40px; text-align:center; 
-  
+  cursor:pointer;
 }
 
 .popup2_img{
 	width:223px; height:253px; 
 	background:url('/pumac2/image/main_contents/popup2.jpg');
+	cursor:pointer;
 }
 
 .mc_category2{
