@@ -126,20 +126,18 @@
 	      			<div class="aside_category_sub_rows">매물</div>
 	      		</div>
 	      </div>
-	      
-	      
-	      
-	      
-	      
-	      
 	 </div><!-- aside End -->
 	 
 	 <div class="aside-backdrop"></div>
 </div> <!-- h_logo End  -->
 
 
-
 <div class="h_navi">
+
+	<!-- 상단 메뉴 -->
+	<?php 
+		
+	?>
 	<div class="h_navi_cols menuHover1" onclick="location.href='?page_content=board_normal&board_category=시민공간&board_page=재능나눔&board_cateNo=01' ">시민공간</div>
 	<div class="h_navi_cols menuHover2" onclick="location.href='?page_content=board_normal&board_category=재능동아리&board_page=영어과외방&board_cateNo=02' ">재능동아리</div>
 	<div class="h_navi_cols menuHover3" onclick="location.href='?page_content=board_normal&board_category=중고장터&board_page=나눔&board_cateNo=03' ">중고장터</div>
@@ -148,7 +146,6 @@
 	<div class="h_navi_cols menuHover6" onclick="location.href='?page_content=board_reserve&board_category=내 아파트&board_page=주치의 예약&board_cateNo=06' " style="">내 아파트</div>
 	<div class="h_navi_cols menuHover7" onclick="location.href='?page_content=realty_list&board_category=부동산&board_page=매물&board_cateNo=07' " style="margin-right:0px">부동산</div>
 
-	
 	
 	<!-- 마우스올렸을때 나오는 네비 하단메뉴 -->
 	<div class="h_navi_contents">

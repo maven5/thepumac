@@ -1,6 +1,6 @@
 <div class="top_wrap">
 <!-- 이미지슬라이드  -->
-		<div class="mc_slider" style="margin:0; width:700px;">
+		<div class="mc_slider" style="margin:0; width:700px;visibility:hidden;opacity:0">
 	   	  <li ><img src="page/main/img/mainslide5.jpg"/></li>
 		  <li ><img src="page/main/img/mainslide1.jpg"onclick="location.href='?page_content=board_normal&board_category=시민공간&board_page=재능나눔&board_cateNo=01' "></li>
 		  <li ><img src="page/main/img/mainslide2.jpg"/></li>
@@ -14,7 +14,9 @@
 			  auto: true,
 			  speed: 500, 
 			  slideWidth: 780,
-			  moveSlides: 1
+			  moveSlides: 1,
+			  onSliderLoad: function(){ $(".mc_slider").css("visibility", "visible").animate({opacity:1}); }
+
 			  });
 		});
 		</script>

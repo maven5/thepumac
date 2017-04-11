@@ -48,7 +48,7 @@
 <link rel="stylesheet" type="text/css" href="css/main/board.css">
 
 <!-- Main Slider  -->
-<script src="js/main/jquery.bxslider.min.js"></script>
+<script src="js/main/jquery.bxslider.js"></script>
 <link href="css/main/jquery.bxslider.css" rel="stylesheet" />
     
 <!-- 일반 게시판 CSS -->
@@ -152,6 +152,9 @@ if($pc=="board_normal") { ?><!-- 일반 게시판 CSS -->
 	
 	<?php 
 			// 컨텐츠 선택
+			
+			/* $bn = array("board_voteList", "board_voteWriteForm", "board_reserve", "board_view", "board_voteView",
+                             "board_manageE","board_manageE_view", "board_writeForm" );  */
 			
 			if(empty($pc)) // 메인
 			 	include 'page/main/main_contents.php';
