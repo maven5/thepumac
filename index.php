@@ -33,7 +33,7 @@
 <link rel="stylesheet" type="text/css" href="css/main/aside.css"> 
 
 <!-- 스마스 에디터 -->
-<script type="text/javascript" src="smartEditor/js/HuskyEZCreator.js" charset="utf-8"></script> 
+<script type="text/javascript" src="smartEditor/js/HuskyEZCreator.js" charset="utf-8"></script>
 
 <!-- 아이콘  -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet" />
@@ -42,7 +42,7 @@
 <link rel="stylesheet" type="text/css" href="css/commons.css"> 
 
 <!-- 메인 CSS -->
-<link rel="stylesheet" type="text/css" href="css/main/main_contents.css"> 
+<link rel="stylesheet" type="text/css" href="css/main/main_contents.css?vision=170412"> 
 <link rel="stylesheet" type="text/css" href="css/main/header.css">
 <link rel="stylesheet" type="text/css" href="css/main/footer.css">
 <link rel="stylesheet" type="text/css" href="css/main/board.css">

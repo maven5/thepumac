@@ -1,6 +1,7 @@
 .top_wrap{
-	width:1500px;
+	width:1064px;
 	height: 350px;
+	clear:both;
 }
 
 /* 이미지 슬라이드 */
@@ -20,7 +21,7 @@
 
 /* 마이페이지  */
 .mc_mypage{
-	width:286px;
+	width:282px;
 	height:339px;
 	border-left:1px solid #bdbdbd;
 	border-bottom:1px solid #bdbdbd;
@@ -30,7 +31,7 @@
 }
 
 .mc_mypage_title{
-	width:270px;
+	/* width:267px; */
 	height:45px;
 	background: #0b7eb4;
 	line-height: 45px;
@@ -74,7 +75,8 @@
 
 .mc_mypage_sub a{
 	text-decoration:none;
-	color:#bdbdbd;
+	color:#4B4C49;
+	font-size:10.5px;
 }
 
 
@@ -82,10 +84,11 @@
 .mc_category{
 	width:1064px;
 	height:98px;
-	/* border:1px solid #bdbdbd; */
+	border:1px solid #bdbdbd;
 	margin-top:20px;
 	margin-left:auto;
 	margin-right:auto;
+	clear:both;
 }
 
 .mc_category_cols{
@@ -97,6 +100,11 @@
 	margin-top:15px;
 	cursor:pointer;
 }
+
+.mc_category_cols p:hover{
+	border: 2px solid #0b7eb4;
+}
+
 .mc_mypage_msg{
 	width:70%;
 	color:#0b7eb4;

@@ -41,7 +41,6 @@
 	background-color:#efefef;
 }
 
-
 .board_contents li{
 	 float:left;
 	 list-style:none; 
@@ -55,9 +54,7 @@
 	 margin-right:14px;
 }
 
-.board_contents li:hover{	
-	color:#fe9601;
-}
+
 
 
 .board_contents_list{ /* 글 리스트 */

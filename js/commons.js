@@ -17,126 +17,60 @@ $(document).ready(function(){
 	//var navi_timer=1;
 	
 	
-	$('.h_navi').hover(function(){
+	/*$('.h_navi').mouseenter(function(){
 		//alert($(".h_navi_contents").css("display"));
 		//$(".h_navi_contents").show('50');
 		var disp = $(".h_navi_contents").css("display");
 		if(disp=="none"){
-			$(".h_navi_contents").slideDown('50');
+			if(!$(".h_navi_contents").is(':animated')){
+				$(".h_navi_contents").stop(true,false).slideDown('100');
+				console.log("aa");
+			}
 		}
+	}).mouseleave(function(){
+		setTimeout(function(){
+				$(".h_navi_contents").stop(true,false).slideUp('50');
+		}, 1000);
+	});*/
+	
+	$('.h_navi').hover(function() {
+		//if(!$(".h_navi_contents").is(':animated')){$('.h_navi_contents').slideToggle('slow');}
+		$('.h_navi_contents').stop().animate({height:"155px"},500);
+		$('.h_navi_contents_cols').stop().animate({height:"155px"},500);
 	},function(){
-		$(".h_navi_contents").slideUp('50');
+		$('.h_navi_contents').stop().animate({height:"0px"},500);
+		$('.h_navi_contents_cols').stop().animate({height:"0px"},500);
 	});
 	
 	
 	// 네비게이션 효과
 	$('.h_navi_cols').hover(function() {
-		$(this).css("border-bottom","3px solid #0b7eb4");	
+		$(this).css("background","");
+		$(this).css("color","#0B7EC8)");
+		$(this).css("font-size","17px");
+		$(this).css("font-weight","bold");
 	}, function(){
-		$(this).css("border-bottom","0px solid #0b7eb4");	
+		$(this).css("color","black");
+		$(this).css("font-size","14px");
 	});
 	
-	$('.menuHover01').hover(function() {
-		$(this).css("background","#0b7eb4");	
-		$(this).children().css("color","white");	
-	}, function(){
-		$(this).css("background","");	
-		$(this).children().css("color","#3c3c3c");	
-	});
 	
-	$('.menuHover02').hover(function() {
-		$(this).css("background","#0b7eb4");	
-		$(this).children().css("color","white");	
-	}, function(){
-		$(this).css("background","");	
-		$(this).children().css("color","#3c3c3c");	
-	});
-	
-	$('.menuHover03').hover(function() {
-		$(this).css("background","#0b7eb4");	
-		$(this).children().css("color","white");	
-	}, function(){
-		$(this).css("background","");	
-		$(this).children().css("color","#3c3c3c");	
-	});
-	
-	$('.menuHover04').hover(function() {
-		$(this).css("background","#0b7eb4");	
-		$(this).children().css("color","white");	
-	}, function(){
-		$(this).css("background","");	
-		$(this).children().css("color","#3c3c3c");	
-	});
-	
-	$('.menuHover05').hover(function() {
-		$(this).css("background","#0b7eb4");	
-		$(this).children().css("color","white");	
-	}, function(){
-		$(this).css("background","");	
-		$(this).children().css("color","#3c3c3c");	
-	});
-	
-	$('.menuHover06').hover(function() {
-		$(this).css("background","#0b7eb4");	
-		$(this).children().css("color","white");	
-	}, function(){
-		$(this).css("background","");	
-		$(this).children().css("color","#3c3c3c");	
-	});
-	
-	$('.menuHover07').hover(function() {
-		$(this).css("background","#0b7eb4");	
-		$(this).children().css("color","white");	
-	}, function(){
-		$(this).css("background","");	
-		$(this).children().css("color","#3c3c3c");	
-	});
-	
-	$('.menuHover11').hover(function() {
-		$('.menuHover1').css("border-bottom","4px solid #0b7eb4");	
+	// 상단메뉴 마우스오버 글자색 변경
+	$('.h_navi_contents_cols').hover(function(){
+		var menuStr = $(this).attr("class");
+		var menuStrIdx = menuStr.indexOf("menuHover")
+		var findStr = menuStr.substring(menuStrIdx+10,menuStrIdx+11);
+		
+		$('.menuHover'+findStr).css("color","#0B7EC8");
+		$('.menuHover'+findStr).css("font-size","17px");
 	},function(){
-		$('.menuHover1').css("border-bottom","0px solid #0b7eb4");	
+		var menuStr = $(this).attr("class");
+		var menuStrIdx = menuStr.indexOf("menuHover")
+		var findStr = menuStr.substring(menuStrIdx+10,menuStrIdx+11);
+		
+		$('.menuHover'+findStr).css("color","black");
+		$('.menuHover'+findStr).css("font-size","14px");
 	});
-	
-	$('.menuHover22').hover(function() {
-		$('.menuHover2').css("border-bottom","4px solid #0b7eb4");	
-	},function(){
-		$('.menuHover2').css("border-bottom","0px solid #0b7eb4");	
-	});
-	
-	$('.menuHover33').hover(function() {
-		$('.menuHover3').css("border-bottom","4px solid #0b7eb4");	
-	},function(){
-		$('.menuHover3').css("border-bottom","0px solid #0b7eb4");	
-	});
-	
-	$('.menuHover44').hover(function() {
-		$('.menuHover4').css("border-bottom","4px solid #0b7eb4");	
-	},function(){
-		$('.menuHover4').css("border-bottom","0px solid #0b7eb4");	
-	});
-	
-	$('.menuHover55').hover(function() {
-		$('.menuHover5').css("border-bottom","4px solid #0b7eb4");	
-	},function(){
-		$('.menuHover5').css("border-bottom","0px solid #0b7eb4");	
-	});
-	
-	$('.menuHover66').hover(function() {
-		$('.menuHover6').css("border-bottom","4px solid #0b7eb4");	
-	},function(){
-		$('.menuHover6').css("border-bottom","0px solid #0b7eb4");	
-	});
-	
-	$('.menuHover77').hover(function() {
-		$('.menuHover7').css("border-bottom","4px solid #0b7eb4");	
-	},function(){
-		$('.menuHover7').css("border-bottom","0px solid #0b7eb4");	
-	});
-	
-	
-	
-	
 	
 	
 	// 모바일 헤더

@@ -10,7 +10,7 @@
 	});
 
 	
-	function category_list1(category, key) {
+	function category_list1(category, key, e) { 
 		var page_no;
 		var url = "/pumac2/action/board/getCategory_list.php";
 		var index = 0;
@@ -25,6 +25,9 @@
 			page_no = "page08";
 		}
 
+		// 글자색 변경 #181818
+		$('.txtcolor1').css("color","#181818");
+		e.style.color="#fe9601";
 		
 		$.get(url, {PAGE_NO : page_no, CATEGORY_KEY : key}, function(data) {
 			//console.log(data);
@@ -59,7 +62,7 @@
 	}
 
 
-	function category_list2(category, key) {
+	function category_list2(category, key, e) {
 		var page_no;
 		var url = "/pumac2/action/board/getCategory_list.php";
 		var index = 0;
@@ -73,6 +76,10 @@
 		} else {
 			page_no = "page12";
 		}
+
+		// 폰트색 변경
+		$('.txtcolor2').css("color","#181818");
+		e.style.color="#fe9601";
 
 		
 		$.get(url, {PAGE_NO : page_no, CATEGORY_KEY : key}, function(data) {
@@ -192,10 +199,10 @@
 			<div class="disnone">
 				<div class="board_contents contents_bgcolorG" >
 				<ul>
-						<li style="color:#fe9601;margin-left:-20px;" onclick="category_list1('english', 2);"> 영어과외 </li>
-					    <li onclick="category_list1('football', 2);"> 청소년축구교실 </li>
-						<li onclick="category_list1('hiking', 2);"> 통일하이킹 </li>
-						<li onclick="category_list1('golf', 2);"> 홀인원클럽 </li>
+						<li class="txtcolor1" style="color:#fe9601;margin-left:-20px;" onclick="category_list1('english', 2, this);"> 영어과외 </li>
+					    <li class="txtcolor1" onclick="category_list1('football', 2, this);"> 청소년축구교실 </li>
+						<li class="txtcolor1" onclick="category_list1('hiking', 2, this);"> 통일하이킹 </li>
+						<li class="txtcolor1" onclick="category_list1('golf', 2, this);"> 홀인원클럽 </li>
 					</ul>
 				</div>
 				
@@ -247,11 +254,11 @@
 				<div class="disnone">
 					<div class="board_contents contents_bgcolorG">
 					<ul>
-							<li style="color:#fe9601; width:50px;margin-left:-10px;margin-right:10px;" onclick="category_list2('share', 3);"> 나눔 </li>
-							<li style="width:80px;margin-right:10px;" onclick="category_list2('exchange', 3);"> 물물교환 </li>
-							<li style="width:70px;margin-right:10px;" onclick="category_list2('sell', 3);"> 팝니다 </li>
-							<li style="width:70px;margin-right:10px;" onclick="category_list2('buy', 3);"> 삽니다 </li>
-						</ul>
+							<li class="txtcolor2" style="color:#fe9601; width:50px;margin-left:-10px;margin-right:10px;" onclick="category_list2('share', 3, this);"> 나눔 </li>
+							<li class="txtcolor2" style="width:80px;margin-right:10px;" onclick="category_list2('exchange', 3, this);"> 물물교환 </li>
+							<li class="txtcolor2" style="width:70px;margin-right:10px;" onclick="category_list2('sell', 3, this);"> 팝니다 </li>
+							<li class="txtcolor2" style="width:70px;margin-right:10px;" onclick="category_list2('buy', 3, this);"> 삽니다 </li>
+						</ul>                  
 					</div>
 					
 					<div style="height:200px;" onclick="location.href='?page_content=board_normal&board_category=중고장터&board_page=나눔&board_cateNo=03' ">	
