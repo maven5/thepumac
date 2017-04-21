@@ -4,7 +4,7 @@
 	if($_SESSION['ma_index'] < 4){ // 운영자 미만 권한설정 불가
 		echo '<script>
 				alert("접근 권한이 없습니다.");
-				location.href="/pumac2/admin/";
+				location.href="/thepumac/admin/";
 			</script>';
 	}
 	

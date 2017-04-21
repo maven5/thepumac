@@ -3,7 +3,7 @@ $(document).ready(function(){
 		if(confirm("정말 수정하시겠습니까?")){
 			var m_idx = $(this).next().val();
 			var ma_index = $(this).parent().prev().children().val();
-			location.href="/pumac2/action/member/member_authority_update.php?m_idx="+m_idx+"&ma_index="+ma_index;
+			location.href="/thepumac/action/member/member_authority_update.php?m_idx="+m_idx+"&ma_index="+ma_index;
 		}
 	});
 });

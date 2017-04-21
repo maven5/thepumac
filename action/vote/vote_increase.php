@@ -23,7 +23,7 @@
 	if(!$_SESSION['m_id'] ){
 		echo '<script>
 				alert("로그인을 먼저 해주세요!");
-				location.href="/pumac2/?page_content=board_voteView&board_category=시민공간&board_page=설문조사&board_cateNo=01&v_idx='.$v1_idx.'";
+				location.href="/thepumac/?page_content=board_voteView&board_category=시민공간&board_page=설문조사&board_cateNo=01&v_idx='.$v1_idx.'";
 			</script>';
 		exit;
 	}
@@ -39,7 +39,7 @@
 	if($rowCount!=0){
 		echo '<script>
 				alert("이미 투표를 하셨습니다.");
-				location.href="/pumac2/?page_content=board_voteView&board_category=시민공간&board_page=설문조사&board_cateNo=01&v_idx='.$v1_idx.'";
+				location.href="/thepumac/?page_content=board_voteView&board_category=시민공간&board_page=설문조사&board_cateNo=01&v_idx='.$v1_idx.'";
 			</script>';
 		exit;
 	}
@@ -90,7 +90,7 @@
 	
 	  echo '<script>
 				alert("투표 완료");
-				location.href="/pumac2/?page_content=board_voteView&board_category=시민공간&board_page=설문조사&board_cateNo=01&v_idx='.$v1_idx.'";
+				location.href="/thepumac/?page_content=board_voteView&board_category=시민공간&board_page=설문조사&board_cateNo=01&v_idx='.$v1_idx.'";
 			</script>';    
 ?>
 

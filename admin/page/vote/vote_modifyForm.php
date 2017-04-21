@@ -26,7 +26,7 @@
 <div class="bVote_wrap">
 	<div class="bVote_title">1. 기본내용</div>
 	
-	<form class="boardWriteForm" action="/pumac2/action/vote/vote_modify.php" method="post">
+	<form class="boardWriteForm" action="/thepumac/action/vote/vote_modify.php" method="post">
 	
 		<div class="boardWF_wrap">
 				<div class="boardWF_row1" style="line-height:20px;">작성자</div>

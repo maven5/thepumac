@@ -25,7 +25,7 @@
 	
  	echo '<script>
 				alert("정상적으로 적용되었습니다.");
-				location.href="/pumac2/admin/?page_content=member_authority";
+				location.href="/thepumac/admin/?page_content=member_authority";
 			</script>'; 
 ?>
 </body>

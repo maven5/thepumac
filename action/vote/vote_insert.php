@@ -68,7 +68,7 @@
 	
 	  echo '<script>
 				alert("투표작성 완료");
-				location.href="/pumac2/?page_content=board_voteList&board_category=시민공간&board_page=설문조사&board_cateNo=01";
+				location.href="/thepumac/?page_content=board_voteList&board_category=시민공간&board_page=설문조사&board_cateNo=01";
 			</script>';    
 ?>
 

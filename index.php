@@ -12,6 +12,15 @@
 <!-- 제이쿼리 CDN -->
 <script src="//code.jquery.com/jquery.min.js"></script> 
 
+<!-- 오픈 그래프(og)  -->
+<?php include './action/og/open_graph.php';?>
+
+<meta property="og:title" content="" />
+<meta property="og:type" content="" />
+<meta property="og:image" content="" />
+<meta property="og:url" content="" />
+<meta property="og:description" content="" />
+
 <!-- 애드센스 연결 -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
@@ -59,7 +68,7 @@ if($pc=="board_normal") { ?><!-- 일반 게시판 CSS -->
 
 <?php } else if($pc=="board_reserve"){?><!-- 예약 게시판 CSS -->
 <link rel="stylesheet" type="text/css" href="css/board/board_reserve.css"> 
-<link rel="stylesheet" href="/pumac2/css/jquery-ui.css">
+<link rel="stylesheet" href="/thepumac/css/jquery-ui.css">
 <script src="http://multidatespickr.sourceforge.net/jquery-ui.multidatespicker.js"></script>
 <!-- <script src="js/board/board_reserve.js"></script>  -->
  

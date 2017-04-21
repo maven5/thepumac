@@ -54,13 +54,13 @@ $query = "select * from member
 		
 		mysqli_close($conn);
 		echo '<script>
-				location.href="/pumac2/";
+				location.href="/thepumac/";
 			</script>';
 	}else{
 		mysqli_close($conn);
 		echo '<script>
 				alert("아이디 혹은 비밀번호가 맞지 않습니다.");
-				location.href="/pumac2/?page_content=member_loginForm";
+				location.href="/thepumac/?page_content=member_loginForm";
 			</script>';
 		
 	}

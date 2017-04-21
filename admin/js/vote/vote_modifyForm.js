@@ -52,10 +52,10 @@ $(document).ready(function(){
 		 
 		if(v2_idx!=0) { // update( 기존 항목 수정 )
 			 if(confirm('기존에 있던 항목입니다. \n수정하시겠습니까?'))
-				 location.href="/pumac2/action/vote/vote_small_update.php?v_idx="+v_idx+"&v2_idx="+v2_idx+"&v2_subject="+v2_subject;
+				 location.href="/thepumac/action/vote/vote_small_update.php?v_idx="+v_idx+"&v2_idx="+v2_idx+"&v2_subject="+v2_subject;
 		}else{ // insert ( 새 항목 추가 )
 			 if(confirm('새 항목을 추가하시겠습니까?'))
-				 location.href="/pumac2/action/vote/vote_small_insert.php?v_idx="+v_idx+"&v2_idx="+v2_idx+"&v2_subject="+v2_subject;
+				 location.href="/thepumac/action/vote/vote_small_insert.php?v_idx="+v_idx+"&v2_idx="+v2_idx+"&v2_subject="+v2_subject;
 		}
 	 });
 
@@ -67,7 +67,7 @@ $(document).ready(function(){
 			 return false;
 		 }else if(v2_idx!=0) { 
 			 if(confirm('기존에 있던 항목입니다. \n삭제하시겠습니까?'))
-				 location.href="/pumac2/action/vote/vote_small_delete.php?v_idx="+v_idx+"&v2_idx="+v2_idx;
+				 location.href="/thepumac/action/vote/vote_small_delete.php?v_idx="+v_idx+"&v2_idx="+v2_idx;
 			 else
 			 	return false;
 		 }
@@ -88,7 +88,7 @@ $(document).ready(function(){
 	    nhn.husky.EZCreator.createInIFrame({
 	        oAppRef: editor_object,
 	        elPlaceHolder: "v_content",
-	        sSkinURI: "/pumac2/smartEditor/SmartEditor2Skin.html", 
+	        sSkinURI: "/thepumac/smartEditor/SmartEditor2Skin.html", 
 	        htParams : {
 	            // 툴바 사용 여부 (true:사용/ false:사용하지 않음)
 	            bUseToolbar : true,             

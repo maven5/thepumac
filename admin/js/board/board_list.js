@@ -19,7 +19,7 @@ $(document).ready(function(){
 		 
 		 	var category = $('.board_category').val();
 		 	
-			 $.post("/pumac2/action/board/getBoard.php?chk=1&category="+category, function(data) { 
+			 $.post("/thepumac/action/board/getBoard.php?chk=1&category="+category, function(data) { 
 				 var json = JSON.parse(data); // JSON 파싱
 				 
 				 $('.board_page').append("<option>선택</option>");
@@ -77,7 +77,7 @@ $(document).ready(function(){
 
 function createCategory(){ // 처음 category 생성
 	
-	$.post("/pumac2/action/board/getBoard.php?chk=0", function(data) { 
+	$.post("/thepumac/action/board/getBoard.php?chk=0", function(data) { 
 				var json = JSON.parse(data); // JSON 파싱
 				
 				$('.board_category').append("<option>선택</option>");
@@ -91,7 +91,7 @@ function createCategory(){ // 처음 category 생성
 	 
  	var category = $('.board_category').val();
  	
-	 $.post("/pumac2/action/board/getBoard.php?chk=1&category="+category, function(data) { 
+	 $.post("/thepumac/action/board/getBoard.php?chk=1&category="+category, function(data) { 
 		 var json = JSON.parse(data); // JSON 파싱
 		 
 		 $('.board_page').append("<option>선택</option>");

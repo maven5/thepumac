@@ -14,7 +14,7 @@
 	
 		echo '<script>
 				alert("로그아웃 성공");
-				location.href="/pumac2/";
+				location.href="/thepumac/";
 			</script>';
 
 

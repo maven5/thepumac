@@ -6,7 +6,7 @@ $(document).ready(function(){
 			var v1_idxH = $('input[name=v_idx]').val(); // v1_idx 히든값
 			var v2_idxH = $(this).next().val(); // v2_idx 히든값
 			
-			location.href="/pumac2/action/vote/vote_increase.php?v1_idx="+v1_idxH+"&v2_idx="+v2_idxH;
+			location.href="/thepumac/action/vote/vote_increase.php?v1_idx="+v1_idxH+"&v2_idx="+v2_idxH;
 		 }
 	});
 	

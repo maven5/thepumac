@@ -78,7 +78,7 @@
 <div class="boardN_page_cols2_contents_search">
 	<input type="text" class="test"> 
 	<div class="boardN_page_cols2_contents_searchIcon">
-		<img src="pumac2/image/board/search.png">
+		<img src="thepumac/image/board/search.png">
 	</div>
 </div>
 <?php } else if($_GET['board_page']=="일정안내"){ ?>

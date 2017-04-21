@@ -30,7 +30,7 @@
 		if(file_put_contents($newPath, $file->content)) {
 			$sFileInfo .= "&bNewLine=true";
 			$sFileInfo .= "&sFileName=".$file->name;
-			$sFileInfo .= "&sFileURL=http://".$_SERVER['HTTP_HOST']."/pumac2/smartEditor/upload/".$file->name;
+			$sFileInfo .= "&sFileURL=http://".$_SERVER['HTTP_HOST']."/thepumac/smartEditor/upload/".$file->name;
 		}
 		
 		echo $sFileInfo;

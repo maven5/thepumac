@@ -11,6 +11,6 @@ $(document).ready(function(){
 	
 	$('.vote_delete').click(function(){ // 투표 삭제 버튼
 		if(confirm("정말 삭제하시겠습니까?"))
-			location.href="/pumac2/action/vote/vote_delete.php?&v_idx="+v_idx;
+			location.href="/thepumac/action/vote/vote_delete.php?&v_idx="+v_idx;
 	});
 });

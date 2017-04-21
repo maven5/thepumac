@@ -77,7 +77,7 @@
 	
 	echo '<script>
 				alert("글작성 완료");
-				location.href="/pumac2/admin/?page_content=expense_write";
+				location.href="/thepumac/admin/?page_content=expense_write";
 					</script>'; 
 	
 	

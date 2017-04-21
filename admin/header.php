@@ -1,6 +1,6 @@
 <div class="header_wrap">
 	<div class="header_row1">
-		<div class="header_row1_left"><a href="/pumac2/admin/">ADMINISTRATOR</a></div>
+		<div class="header_row1_left"><a href="/thepumac/admin/">ADMINISTRATOR</a></div>
 		<div class="header_row1_right">
 			<a href="../" style="margin-right:5px;">메인</a>
 			l
@@ -29,7 +29,7 @@
  $(document).ready(function(){
 	$('.logout').click(function(){
 		if(confirm("로그아웃 하시겠습니까?")){
-			location.href="/pumac2/action/member/member_logout.php";
+			location.href="/thepumac/action/member/member_logout.php";
 		}
 	});
 }); 

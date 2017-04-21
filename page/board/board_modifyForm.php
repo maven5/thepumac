@@ -88,7 +88,7 @@
 		
 			<!-- 글쓰기폼  -->
 			<div class="boardWF_wrap">
-				<form class="boardWriteForm" action="/pumac2/action/board/board_update.php" method="post">
+				<form class="boardWriteForm" action="/thepumac/action/board/board_update.php" method="post">
 					<div class="boardWF_row1" style="line-height:20px;">작성자</div>
 					
 					<input type="hidden" value="" name="b_writer"> <!-- 작성자 hidden  -->

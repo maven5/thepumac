@@ -12,7 +12,7 @@
 	
 	function category_list1(category, key, e) { 
 		var page_no;
-		var url = "/pumac2/action/board/getCategory_list.php";
+		var url = "/thepumac/action/board/getCategory_list.php";
 		var index = 0;
 	
 		if(category == "english") {
@@ -64,7 +64,7 @@
 
 	function category_list2(category, key, e) {
 		var page_no;
-		var url = "/pumac2/action/board/getCategory_list.php";
+		var url = "/thepumac/action/board/getCategory_list.php";
 		var index = 0;
 	
 		if(category == "share") {

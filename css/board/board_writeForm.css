@@ -83,11 +83,11 @@
 }
 
 .boardWF_page2_cols2{
-	padding-top:30px;
-	padding-left:0px;
 	float:left;
-	width:902px;
+	width:770px;
 	height:980px;
+	padding-left:60px;
+	padding-top:40px;
 }
 
 .boardWF_page{

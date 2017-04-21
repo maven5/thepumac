@@ -27,7 +27,7 @@
 	
 	 echo '<script>
 				alert("글삭제 완료");
-				location.href="/pumac2/?page_content=board_normal&board_page='.$board_page.'&board_category='.$board_category.'&board_cateNo='.$board_cateNo.'";
+				location.href="/thepumac/?page_content=board_normal&board_page='.$board_page.'&board_category='.$board_category.'&board_cateNo='.$board_cateNo.'";
 			</script>';  
 ?>
 

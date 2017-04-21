@@ -220,7 +220,7 @@
 		});
 
 		
-	 	$.post("/pumac2/action/reserve/reserve_check.php", param, function(data) { 		
+	 	$.post("/thepumac/action/reserve/reserve_check.php", param, function(data) { 		
 	 		date_rev = data.split(",");
 	 		
 			for(var i=0; i<date_rev.length-1; i++) {
@@ -297,7 +297,7 @@
 
  <div class="boardN_page_cols2">  
  
-<form id="reserve_frm" name="reserve_frm" method="post" action="/pumac2/action/reserve/reserve_insert.php">
+<form id="reserve_frm" name="reserve_frm" method="post" action="/thepumac/action/reserve/reserve_insert.php">
 	<?php if($_GET['board_page']=="주치의 예약"){ ?>
 		<input type="hidden" id="type" name="type" value="D">
 	<?php } else if($_GET['board_page']=="게스트하우스"){ ?>
@@ -544,13 +544,13 @@
 		<div class="boardN_reserveObey_rows2">
 				<?php if($_GET['board_page']=="주치의 예약"){ ?>
 		 			<div class="boardN_reserveObey_rows3">
-		 			<img src="/pumac2/image/board/rev_info_doc.jpg"></div>
+		 			<img src="/thepumac/image/board/rev_info_doc.jpg"></div>
 				<?php } else if($_GET['board_page']=="게스트하우스"){ ?>
 					<div class="boardN_reserveObey_rows3">
-					<img src="/pumac2/image/board/rev_info_guest.jpg"></div>
+					<img src="/thepumac/image/board/rev_info_guest.jpg"></div>
 				<?php } else if($_GET['board_page']=="아기돌봄예약"){ ?>
 					<div class="boardN_reserveObey_rows3">
-					<img src="/pumac2/image/board/rev_info_baby.jpg"></div>
+					<img src="/thepumac/image/board/rev_info_baby.jpg"></div>
 				<?php } ?>	
 		</div>
 	</div>
