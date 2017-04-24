@@ -81,7 +81,7 @@
 		
 	// 01. 파일 업로드 설정 //
 	if($b_files!=""){
-		$total_url = "/thepumac/upload/".$b_files;
+		$total_url = "/upload/".$b_files;
 		$b_files= explode("^",$b_files); // 파일명 
 		$b_files = $b_files[1];
 		

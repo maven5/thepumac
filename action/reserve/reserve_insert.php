@@ -48,7 +48,7 @@
 	
  	echo '<script>
 				alert("예약이 완료됐습니다.");
-				location.href="/thepumac/";
+				location.href="/";
 		  </script>';
 ?>
 

@@ -4,7 +4,7 @@
 <div class="bVote_title"> 글쓰기 </div>
 
 <div class="boardWF_wrap">
-	<form class="boardWriteForm" action="/thepumac/action/expense/expense_write.php" method="post" enctype="multipart/form-data">
+	<form class="boardWriteForm" action="/action/expense/expense_write.php" method="post" enctype="multipart/form-data">
 		<div class="boardWF_row1" style="line-height:20px;">작성자</div>
 		
 		<input type="hidden" value="<?=$_SESSION['m_id']?>" name="e_writer"> <!-- 작성자 hidden  -->

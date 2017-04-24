@@ -68,7 +68,7 @@ if($pc=="board_normal") { ?><!-- 일반 게시판 CSS -->
 
 <?php } else if($pc=="board_reserve"){?><!-- 예약 게시판 CSS -->
 <link rel="stylesheet" type="text/css" href="css/board/board_reserve.css"> 
-<link rel="stylesheet" href="/thepumac/css/jquery-ui.css">
+<link rel="stylesheet" href="css/jquery-ui.css">
 <script src="http://multidatespickr.sourceforge.net/jquery-ui.multidatespicker.js"></script>
 <!-- <script src="js/board/board_reserve.js"></script>  -->
  

@@ -41,7 +41,7 @@
 	
 	  echo '<script>
 				alert("항목 추가 완료");
-				location.href="/thepumac/admin/?page_content=vote_modifyForm&v_idx='.$v_idx.'"</script>';    
+				location.href="/admin/?page_content=vote_modifyForm&v_idx='.$v_idx.'"</script>';    
 ?>
 
 

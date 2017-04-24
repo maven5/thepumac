@@ -58,7 +58,7 @@
 	
 	echo '<script>
 				alert("회원가입 완료");
-				location.href="/thepumac/";
+				location.href="/";
 			</script>';  
 	
 ?>

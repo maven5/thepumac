@@ -22,7 +22,7 @@
 		
 		echo '<script>
 				alert("임시 로그인 성공");
-				location.href="/thepumac";
+				location.href="/";
 			</script>';
 	} 
 	
@@ -31,7 +31,7 @@
 	
 		echo '<script>
 				alert("임시 로그아웃 성공");
-				location.href="/thepumac";
+				location.href="/";
 			</script>';
 	}
 

@@ -80,7 +80,7 @@ $(document).ready(function(){
 	    nhn.husky.EZCreator.createInIFrame({
 	        oAppRef: editor_object,
 	        elPlaceHolder: "v_content",
-	        sSkinURI: "/thepumac/smartEditor/SmartEditor2Skin.html", 
+	        sSkinURI: "/smartEditor/SmartEditor2Skin.html", 
 	        htParams : {
 	            // 툴바 사용 여부 (true:사용/ false:사용하지 않음)
 	            bUseToolbar : true,             

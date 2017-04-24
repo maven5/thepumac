@@ -32,7 +32,7 @@
 	
 	  echo '<script>
 				alert("투표삭제  완료");
-				location.href="/thepumac/admin/?page_content=vote_list";
+				location.href="/admin/?page_content=vote_list";
 			</script>';    
 ?>
 

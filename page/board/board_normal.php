@@ -18,7 +18,7 @@
 			<div class="boardN_title_cols2_3">
 			</div>
 			<?php } else{ ?>
-			<div class="boardN_title_cols2" style="background:url('/thepumac/image/board/cateNo<?=$_GET['board_cateNo']?>.jpg')">
+			<div class="boardN_title_cols2" style="background:url('/image/board/cateNo<?=$_GET['board_cateNo']?>.jpg')">
 				<div class="boardN_title_cols2_title"><?php echo $_GET['board_page']; ?></div>
 			</div>
 		<?php } ?>

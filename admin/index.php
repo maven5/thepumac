@@ -11,7 +11,7 @@
 	if($_SESSION['ma_index']==0) { // 일반회원 접근 불가
 		echo '<script>
 				alert("접근 권한이 없습니다.");
-				location.href="/thepumac/";
+				location.href="/";
 			</script>'; 
 	}
 ?>
@@ -31,7 +31,7 @@
 
 
 <!-- 스마스 에디터 -->
-<script type="text/javascript" src="/thepumac/smartEditor/js/HuskyEZCreator.js" charset="utf-8"></script> 
+<script type="text/javascript" src="/smartEditor/js/HuskyEZCreator.js" charset="utf-8"></script> 
 
 <script src="js/index.js"></script>
 

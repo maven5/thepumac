@@ -35,7 +35,7 @@
 	
 	 echo '<script>
 				alert("글수정 완료");
-				location.href="/thepumac/?page_content=board_view&board_page='.$board_page.'&board_category='.$board_category.'&board_cateNo='.$board_cateNo.'&b_index='.$b_index.'";
+				location.href="/?page_content=board_view&board_page='.$board_page.'&board_category='.$board_category.'&board_cateNo='.$board_cateNo.'&b_index='.$b_index.'";
 			</script>';  
 ?>
 

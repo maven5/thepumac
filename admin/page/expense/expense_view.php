@@ -20,7 +20,7 @@
 			return;
 		}
 
-		var url = "/thepumac/action/expense/expense_read.php";
+		var url = "/action/expense/expense_read.php";
 		var param = {
 			DONG : dong,
 			HO : ho,
