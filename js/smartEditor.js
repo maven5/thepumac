@@ -1,5 +1,5 @@
 $(function(){
-    //전역변수선언
+    // *@ 전역변수선언
     var editor_object = [];
      
     nhn.husky.EZCreator.createInIFrame({
