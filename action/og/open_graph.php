@@ -51,7 +51,7 @@
 
 	<meta property="og:title" content="<?=$board_page." - ".$b_subject?>" />
 	<meta property="og:type" content="board_view" />
-	<meta property="og:image" content="<?=$imgSrc[0]?>" />
+	<meta property="og:image" content="<?=$og_image?>" />
 	<meta property="og:url" content="http://thepumac.com" />
 	<meta property="og:description" content="<?=strip_tags($b_content_noImg)?>" />
 

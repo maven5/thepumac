@@ -16,7 +16,7 @@
 <!-- 오픈 그래프(og)  Taget : Board View -->
 <?php 
 
-	if($pc=="board_view"){ // 일반 게시판
+	if($pc=="board_view"){ // 게시판 뷰
 		include './action/og/open_graph.php';
 	}
 ?>
