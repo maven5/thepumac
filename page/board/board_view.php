@@ -3,7 +3,7 @@
 	 ** 게시판 세부페이지
 	 **
 	 */
-
+/* 
 	include 'dbconfig.php';
 
 	$board_category = $_GET['board_category']; // 큰 카테고리
@@ -42,15 +42,11 @@
 	
 	//이미지 태그 제거
 	$b_content_noImg = preg_replace("/<img[^>]+\>/i", "", $b_content);
-	
+	 */
 ?>
 
 <script>
 	$(document).ready(function(){
-		$('meta[property=og\\:title]').attr('content', "<?=$board_page." - ".$b_subject?>"); 
-		$('meta[property=og\\:description]').attr('content',  "<?=strip_tags($b_content_noImg)?>");
-		$('meta[property=og\\:image]').attr('content', "<?=$imgSrc[0]?>");
-		$('meta[property=og\\:url]').attr('content', "http://thepumac.com");
 	});
 </script>
 

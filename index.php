@@ -1,5 +1,6 @@
 <?php 
 	session_start();
+	$pc = $_GET['page_content'];
 ?>
 
 <!DOCTYPE html>
@@ -12,14 +13,13 @@
 <!-- 제이쿼리 CDN -->
 <script src="//code.jquery.com/jquery.min.js"></script> 
 
-<!-- 오픈 그래프(og)  -->
-<?php include './action/og/open_graph.php';?>
+<!-- 오픈 그래프(og)  Taget : Board View -->
+<?php 
 
-<meta property="og:title" content="" />
-<meta property="og:type" content="" />
-<meta property="og:image" content="" />
-<meta property="og:url" content="" />
-<meta property="og:description" content="" />
+	if($pc=="board_view"){ // 일반 게시판
+		include './action/og/open_graph.php';
+	}
+?>
 
 <!-- 애드센스 연결 -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -61,7 +61,8 @@
 <link href="css/main/jquery.bxslider.css" rel="stylesheet" />
     
 <!-- 일반 게시판 CSS -->
-<?php $pc = $_GET['page_content'];
+<?php
+
 if($pc=="board_normal") { ?><!-- 일반 게시판 CSS -->
 <link rel="stylesheet" type="text/css" href="css/board/board_normal.css"> 
 <script src="js/board_list.js"></script>  
