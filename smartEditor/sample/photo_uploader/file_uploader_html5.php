@@ -27,11 +27,11 @@
 		
 		$newPath = $uploadDir.iconv("utf-8", "cp949", $file->name);
 		
-		if(file_put_contents($newPath, $file->content)) {
+		//if(file_put_contents($newPath, $file->content)) {
 			$sFileInfo .= "&bNewLine=true";
 			$sFileInfo .= "&sFileName=".$file->name;
 			$sFileInfo .= "&sFileURL=http://".$_SERVER['HTTP_HOST']."/smartEditor/upload/".$file->name;
-		}
+		//}
 		
 		echo $sFileInfo;
 	}

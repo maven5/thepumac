@@ -397,7 +397,7 @@
  		
  		aResultleng = aResult.length;
     	aResult[aResultleng] = htTemp;
-    	
+
     	if(aResult.length == nImageFileCount){
     		setPhotoToEditor(aResult); 
     		aResult = null;
